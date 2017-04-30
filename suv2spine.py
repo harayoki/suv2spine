@@ -11,7 +11,7 @@ VERSION = 1.01
 DEFAULT_SCALE = 10.0
 
 # 書き出しJSONテンプレート Spine3.5.51で簡易形式(non-essential)で書き出したものを元に作成
-# hash値はかぶってもインポート時に別の元して取り込めるので固定でも大丈夫ぽい
+# hash値はかぶってもインポート時に別のものとして取り込めるので固定でも大丈夫ぽい
 # hull値とedge値はなくてもとりあえずは大丈夫 (インポート時に警告は出る)
 # @see http://ja.esotericsoftware.com/spine-json-format
 # (hash: A hash of all the skeleton data. This can be used by tools to detect if the data has changed since the last time it was loaded.)

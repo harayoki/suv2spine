@@ -17,12 +17,15 @@ SpriteUV2 https://www.spriteuv.com/
 ## 簡単な使い方
 
 ./suv2spine.py sproteuv2export.json
+
 -> sproteuv2export_out.json が作成されます
 
 ./suv2spine.py -o hoge.json sproteuv2export.json
+
 -> hoge.json が作成されます
 
 ./suv2spine.py -s 5.0 sproteuv2export.json
+
 -> メッシュの拡大率を5倍にします（デフォルトは10倍です)
 
 その他はヘルプを参照してください。

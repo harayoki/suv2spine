@@ -74,7 +74,7 @@ def convert(suv_json, hash, data_version, scale):
 	# hull値(外周の頂点数)
 	hull = 0 # 外周が判定できないので0とする(外周の頂点はverticesの先頭に並んでいなくてはならない)
 	
-	# edge (外周のライン情報 ２頂点データで11ラインを示す)
+	# edge (外周のライン情報 2頂点1組で1ラインを表す)
 	edge = '[]' #とりあえず設定しない
 
 	output_str = output_template %{\

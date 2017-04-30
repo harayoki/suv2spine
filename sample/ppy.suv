@@ -1,0 +1,150 @@
+{
+	"version": 1,
+	"type": "suv2",
+	"atlasSettings": {
+		"id": "Tb9HPWvkcySjFVSPVhBK",
+		"padding": 1,
+		"type": 0,
+		"quality": 16,
+		"width": 0,
+		"height": 0
+	},
+	"exportFormat": [
+		{
+			"id": "c7g0WiTAxoVTPXL1QxEp",
+			"type": "FBX",
+			"data": {
+				"flipZ": true,
+				"upVector": 0
+			}
+		},
+		{
+			"id": "waKqvXILLLiqJqwwV3XI",
+			"type": "COLLADA",
+			"data": {
+				"flipZ": true,
+				"upVector": 0
+			}
+		},
+		{
+			"id": "B79sQciAXeEHxYoS0n2M",
+			"type": "OBJ",
+			"data": {
+				"flipZ": true,
+				"upVector": 0
+			}
+		},
+		{
+			"id": "HijfISg6q4E6UznrUfDY",
+			"type": "UNITY_SPRITE",
+			"data": {
+				"textureUID": "0000000000000000f000000000000000"
+			}
+		},
+		{
+			"id": "BFJpyOXcgBzeFm3LFUh8",
+			"type": "JSON",
+			"data": {
+				"schema": 0,
+				"triOrder": 0
+			}
+		}
+	],
+	"channel": [
+		{
+			"id": "IJET2uhptP77X8HZAGkb",
+			"name": "exportAtlas",
+			"path": "image",
+			"format": 0,
+			"settings": {}
+		}
+	],
+	"exportGroup": [
+		{
+			"id": "fgPI9p9oaTZVjgeWJRjd",
+			"name": "exportGroup",
+			"settings": {
+				"ref": "BFJpyOXcgBzeFm3LFUh8",
+				"path": "image"
+			},
+			"materialName": "spriteUVMaterial",
+			"pixelPerUnit": 100,
+			"asSingle": false
+		}
+	],
+	"imageFile": [
+		{
+			"id": "vNNezYw0uULpygsknYm0",
+			"channel": [
+				{
+					"ref": "IJET2uhptP77X8HZAGkb",
+					"path": "srcImage/pappey_sample.png",
+					"alpha": true
+				}
+			],
+			"export": {
+				"ref": "fgPI9p9oaTZVjgeWJRjd",
+				"path": ""
+			},
+			"name": "pappey_sample"
+		}
+	],
+	"fbxFile": [],
+	"spineFile": [],
+	"animFile": [],
+	"imageItem": [
+		{
+			"id": "xAmGhPBj88Xl9gTexXTR",
+			"ref": "vNNezYw0uULpygsknYm0",
+			"name": "pappey_sample",
+			"pivot": {
+				"t": 1,
+				"p": {
+					"x": 0.5,
+					"y": 0.5
+				},
+				"a": 0
+			},
+			"selection": {
+				"active": 0,
+				"bbox": {
+					"min": {
+						"x": 0,
+						"y": 0
+					},
+					"max": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				"polygon": []
+			},
+			"scale": 1,
+			"shape": {
+				"alphaThresh": 0.001,
+				"active": 0,
+				"data": {
+					"tight": {
+						"cnvx": false,
+						"offset": 1
+					},
+					"bbox": {
+						"rot": true
+					}
+				}
+			},
+			"tess": {
+				"t": 1,
+				"v": 1
+			},
+			"z": 0,
+			"slice": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"w": 0
+			}
+		}
+	],
+	"fbxItem": []
+}

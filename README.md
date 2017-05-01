@@ -2,6 +2,8 @@
 
 SpriteUV2 から書き出した メッシュデータjsonファイル を Spine にインポートできる json形式 に変更する Python scriptです。
 
+こちらに解説記事があります。 http://qiita.com/harayoki/items/fe3f4eae615c46040479
+
 ## 開発環境
 * Python のバージョン：2.7.10
 * 開発OS：macOS Sierra ver.10.12.3
@@ -11,8 +13,8 @@ SpriteUV2 から書き出した メッシュデータjsonファイル を Spine 
 ※　SpineがProfessionalバージョンでない場合メッシュ機能が使えません
 
 ## ソフトウェアのリンク
-SPINE　http://ja.esotericsoftware.com/
-SpriteUV2 https://www.spriteuv.com/
+* SPINE　http://ja.esotericsoftware.com/
+* SpriteUV2 https://www.spriteuv.com/
 
 ## 簡単な使い方
 
